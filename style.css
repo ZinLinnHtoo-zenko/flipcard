@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(9, 226, 164, 0.683);
+}
+
+#card {
+  display: flex;
+  width: 300px;
+  border: 6px solid white;
+  border-radius: 6px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+#card:hover {
+  transform: rotateY(180deg);
+  transition: transform 1s;
+}
